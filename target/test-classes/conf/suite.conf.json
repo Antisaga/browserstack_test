@@ -1,0 +1,30 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "bsuser64500",
+  "key": "h8r1h294zALK1mFm5jAm",
+
+  "capabilities": {
+    "build": "testng-browserstack",
+    "name": "suite_test",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "chrome": {
+      "browser": "chrome"
+    },
+    "firefox": {
+      "browser": "firefox"
+    },
+    "opera": {
+      "browser": "opera"
+    },
+    "safari": {
+      "os": "OS X",
+      "browser": "safari"
+    },
+    "ie": {
+      "browser": "internet explorer"
+    }
+  }
+}

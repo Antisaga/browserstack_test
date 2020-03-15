@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-15T20:56:20Z" name="Parallel" finished-at="2020-03-15T20:56:42Z" duration-ms="21474">
+    <groups>
+    </groups>
+    <test started-at="2020-03-15T20:56:20Z" name="SingleTestChrome" finished-at="2020-03-15T20:56:33Z" duration-ms="12858">
+      <class name="com.browserstack.SingleTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.browserstack.SingleTest@48e4374]" started-at="2020-03-15T13:56:20Z" name="setUp" finished-at="2020-03-15T13:56:25Z" duration-ms="4240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:com.browserstack.SingleTest@48e4374]" started-at="2020-03-15T13:56:25Z" name="test" finished-at="2020-03-15T13:56:33Z" duration-ms="8472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.SingleTest@48e4374]" started-at="2020-03-15T13:56:33Z" name="tearDown" finished-at="2020-03-15T13:56:33Z" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.SingleTest -->
+    </test> <!-- SingleTestChrome -->
+    <test started-at="2020-03-15T20:56:20Z" name="SingleTestSafari" finished-at="2020-03-15T20:56:35Z" duration-ms="14379">
+      <class name="com.browserstack.SingleTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.browserstack.SingleTest@1139b2f3]" started-at="2020-03-15T13:56:20Z" name="setUp" finished-at="2020-03-15T13:56:27Z" duration-ms="6901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:com.browserstack.SingleTest@1139b2f3]" started-at="2020-03-15T13:56:27Z" name="test" finished-at="2020-03-15T13:56:35Z" duration-ms="7342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.SingleTest@1139b2f3]" started-at="2020-03-15T13:56:35Z" name="tearDown" finished-at="2020-03-15T13:56:35Z" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.SingleTest -->
+    </test> <!-- SingleTestSafari -->
+    <test started-at="2020-03-15T20:56:20Z" name="SingleTestFirefox" finished-at="2020-03-15T20:56:37Z" duration-ms="16835">
+      <class name="com.browserstack.SingleTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.browserstack.SingleTest@63355449]" started-at="2020-03-15T13:56:20Z" name="setUp" finished-at="2020-03-15T13:56:28Z" duration-ms="7899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:com.browserstack.SingleTest@63355449]" started-at="2020-03-15T13:56:28Z" name="test" finished-at="2020-03-15T13:56:35Z" duration-ms="7137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.SingleTest@63355449]" started-at="2020-03-15T13:56:35Z" name="tearDown" finished-at="2020-03-15T13:56:37Z" duration-ms="1788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.SingleTest -->
+    </test> <!-- SingleTestFirefox -->
+    <test started-at="2020-03-15T20:56:20Z" name="SingleTestIE" finished-at="2020-03-15T20:56:38Z" duration-ms="17755">
+      <class name="com.browserstack.SingleTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.browserstack.SingleTest@1817d444]" started-at="2020-03-15T13:56:20Z" name="setUp" finished-at="2020-03-15T13:56:26Z" duration-ms="5161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:com.browserstack.SingleTest@1817d444]" started-at="2020-03-15T13:56:26Z" name="test" finished-at="2020-03-15T13:56:37Z" duration-ms="11857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.SingleTest@1817d444]" started-at="2020-03-15T13:56:37Z" name="tearDown" finished-at="2020-03-15T13:56:38Z" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.SingleTest -->
+    </test> <!-- SingleTestIE -->
+    <test started-at="2020-03-15T20:56:20Z" name="SingleTestOpera" finished-at="2020-03-15T20:56:42Z" duration-ms="21474">
+      <class name="com.browserstack.SingleTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.browserstack.SingleTest@c267ef4]" started-at="2020-03-15T13:56:20Z" name="setUp" finished-at="2020-03-15T13:56:31Z" duration-ms="10975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:com.browserstack.SingleTest@c267ef4]" started-at="2020-03-15T13:56:31Z" name="test" finished-at="2020-03-15T13:56:41Z" duration-ms="9825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.SingleTest@c267ef4]" started-at="2020-03-15T13:56:41Z" name="tearDown" finished-at="2020-03-15T13:56:42Z" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserstack.SingleTest -->
+    </test> <!-- SingleTestOpera -->
+  </suite> <!-- Parallel -->
+</testng-results>
