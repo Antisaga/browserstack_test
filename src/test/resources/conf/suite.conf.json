@@ -16,6 +16,9 @@
     "firefox": {
       "browser": "firefox"
     },
+    "opera": {
+      "browser": "opera"
+    },
     "safari": {
       "os": "OS X",
       "browser": "safari"
